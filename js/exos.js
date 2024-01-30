@@ -16,8 +16,6 @@ const solution1 = "la mer noire";
 // Ton code ici...
 
 const reponse1 = prompt(question1);
-// let reponse1 = promot(`${question1}`); //
-console.log(reponse1);
 
 if (reponse1 === solution1) {
   // compteur = compteur + 1;
