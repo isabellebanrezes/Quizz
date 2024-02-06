@@ -10,7 +10,7 @@
 
 let compteur = 0;
 const question1 = "quelle mer borde la ville de Sébastopol ?";
-const solution1 = "la mer noire";
+const solution1 = "la mer Noire";
 
 /* Exo 2 */
 // Ton code ici...
@@ -21,6 +21,7 @@ if (reponse1 === solution1) {
   // compteur = compteur + 1;
   // compteur += 1;
   compteur++;
+
   alert("Gagné !");
 } else {
   alert("Perdu ...");
@@ -42,4 +43,4 @@ if (parseInt(reponse2) === solution2) {
   alert("Perdu ...");
 }
 
-alert(`${compteur} points !`);
+alert(`Bravo, vous avez trouvé en ${compteur} points !`);
